@@ -1,6 +1,7 @@
 if nuts < maxNuts{
 	instance_destroy(other)
 	nuts++
+	audio_play_sound(snd_pickup, 1, false)
 	if other.owner != noone {
 		with other.owner {
 			mynut = -1
