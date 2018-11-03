@@ -1,0 +1,18 @@
+Enemy Squirrel Logic
+
+spawn from home between 
+
+choose randomly if going for your nuts or nearest nut
+
+if going for nearest nut:
+	travel towards nearest nut
+	pick up nut and increment own nut counter
+	travel toward "home", don't pick up other nuts on way
+
+if player is within very close/touching bad squirrel:
+	drop any nuts (if had any)
+	run back towards home
+
+if at home:
+	drop nut (decrease nut counter)
+	wait 1-5 seconds before searching for new nut again
