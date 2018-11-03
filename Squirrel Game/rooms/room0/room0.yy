@@ -21,11 +21,7 @@
         "835eb226-76ca-4be5-a618-e6cbebd8a171",
         "6fcd4cce-bcac-42ad-ac35-272a9596afd8",
         "90a9b7c5-cf79-489d-9525-adb979875c31",
-<<<<<<< HEAD
         "83b5ef40-0bd6-4969-8d77-f6b7b0e6fe29"
-=======
-        "48a8628f-919a-40d6-8ff1-c5162e07d877"
->>>>>>> 7d1f48625bd3124cc0b4ef25d68cec16055c5304
     ],
     "IsDnD": false,
     "layers": [
