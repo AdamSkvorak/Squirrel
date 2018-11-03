@@ -6,34 +6,34 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 127,
-    "bbox_left": 0,
-    "bbox_right": 127,
-    "bbox_top": 0,
+    "bbox_bottom": 114,
+    "bbox_left": 15,
+    "bbox_right": 138,
+    "bbox_top": 26,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "e1f48fde-c139-4b33-8d27-40ee00718f6c",
+            "id": "220b9f0b-73fa-4c8a-9b07-38e82b2d6dd2",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "a4259aba-f5e0-4804-920d-40752c45429d",
             "compositeImage": {
-                "id": "1683164b-f0fd-458f-83ed-7ec2a709d1b4",
+                "id": "685fdea8-ff79-4081-bffb-3a61b4189612",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "e1f48fde-c139-4b33-8d27-40ee00718f6c",
+                "FrameId": "220b9f0b-73fa-4c8a-9b07-38e82b2d6dd2",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "65e4e72c-2391-478f-9715-116f27407a13",
+                    "id": "729bd9db-6c6a-4f6c-8664-36f2c9200d3d",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "e1f48fde-c139-4b33-8d27-40ee00718f6c",
-                    "LayerId": "a849209e-dd83-4c85-a71a-414ed2a0c5ff"
+                    "FrameId": "220b9f0b-73fa-4c8a-9b07-38e82b2d6dd2",
+                    "LayerId": "b04b7934-3409-4c6e-b69e-34d205bf12ee"
                 }
             ]
         }
@@ -43,7 +43,7 @@
     "height": 128,
     "layers": [
         {
-            "id": "a849209e-dd83-4c85-a71a-414ed2a0c5ff",
+            "id": "b04b7934-3409-4c6e-b69e-34d205bf12ee",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "a4259aba-f5e0-4804-920d-40752c45429d",
@@ -54,7 +54,7 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 9,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -64,7 +64,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 128,
-    "xorig": 0,
-    "yorig": 0
+    "width": 156,
+    "xorig": 79,
+    "yorig": 78
 }
