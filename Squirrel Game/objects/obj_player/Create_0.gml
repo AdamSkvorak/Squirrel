@@ -6,7 +6,7 @@ speedmult = 1
 dir = "S"
 moveY = 0
 moveX = 0
-
+collide = true
 
 //Sprites
 runup = spr_devil_runU

@@ -1,6 +1,6 @@
 home = noone
-range = 500
-
+range = 300
+collide = false
 mynut = -1
 havenut = false
 

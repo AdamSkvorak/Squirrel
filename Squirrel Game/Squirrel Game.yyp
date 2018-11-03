@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "a322e40a-fad9-4eaa-b64b-e2ae8a98e41d",
+            "Value": {
+                "id": "7bc094e2-42a0-4bda-aea9-e022ea645e2c",
+                "resourcePath": "sprites\\spr_burrow\\spr_burrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a4259aba-f5e0-4804-920d-40752c45429d",
             "Value": {
                 "id": "d7ac6f24-8713-44c8-b066-da692f9e6bba",
