@@ -1,7 +1,7 @@
 checkinputs()
 
 
-if (nutTimer == timeToNut) or (k_e) {
+if (nutTimer == timeToNut) or (k_x) {
 
 	pos = random_range(-1, 1)
 	nutX = pos*random(100)
