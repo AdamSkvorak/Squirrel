@@ -11,7 +11,7 @@ collide = true
 //Sprites
 runup = spr_devil_runU
 runupdiag = spr_devil_runUdiag
-runright = spr_devil_runR
+runright = spr_devil_runL
 rundowndiag = spr_devil_runDdiag
 rundown = spr_devil_runD
 idle = spr_devil_idle

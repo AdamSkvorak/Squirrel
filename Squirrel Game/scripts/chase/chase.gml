@@ -15,6 +15,10 @@ if abs(y - obj.y) <= 1 {
 	diry = 0
 	mult = 1
 }
-
+if dirx == 0{
+	
+} else {
+	image_xscale = sign(dirx)	
+}
 move(-dirx*movespeed*mult, -diry*movespeed*mult)
 

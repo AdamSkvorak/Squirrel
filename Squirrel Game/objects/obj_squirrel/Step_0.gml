@@ -1,5 +1,4 @@
 //findnut
-
 if mynut == -1 and havenut = false {
 	for (i = 0; i < instance_number(obj_nut); i++) {
 		if (distance_to_object(instance_find(obj_nut, i)) < range) 
@@ -28,6 +27,13 @@ if havenut {
 	chase(home)	
 }
 
+if mynut == -1 and havenut == false {
+	sprite_index = spr_devil_idle	
+} else {
+	sprite_index = spr_devil_runL	
+}
+
 if place_meeting(x,y,home) {
 	havenut = false
 }
+
