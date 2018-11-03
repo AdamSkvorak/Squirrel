@@ -1,3 +1,3 @@
 state = E_states.idle
-detectRadius = 60
-movespeed = 2
+detectRadius = 200
+movespeed = 1
