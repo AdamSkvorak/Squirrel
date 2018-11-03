@@ -16,6 +16,11 @@ vspd = moveY * movespeed * speedmult
 
 move( hspd, vspd) //----Moves player
 
+//----drops nuts
+if k_e {
+	instance_create_layer(x, y, "Instances", obj_newnut)
+	nuts--
+}
 
 //---Movement Sprites
 

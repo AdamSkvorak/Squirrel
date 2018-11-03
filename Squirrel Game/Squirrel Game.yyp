@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "ba2d2864-631a-4f4b-b61d-7faa05032da7",
+            "Value": {
+                "id": "225d86d8-4eae-401d-8516-34ae01552546",
+                "resourcePath": "objects\\obj_newnut\\obj_newnut.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c89398a8-d12a-4178-9473-dcce0558809b",
             "Value": {
                 "id": "5efec48d-ab09-4bff-86c6-5d11a17f5844",
