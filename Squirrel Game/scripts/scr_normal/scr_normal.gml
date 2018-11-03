@@ -19,7 +19,6 @@ move( hspd, vspd) //----Moves player
 //----drops nuts
 if k_e and nuts > 0{
 	instance_create_layer(x, y, "Instances", obj_newnut)
-	global.nutcount++
 	nuts--
 }
 
@@ -27,19 +26,19 @@ if k_e and nuts > 0{
 
 if moveX > 0 and moveY > 0 {
 	sprite_index = 	rundowndiag
-	image_xscale = 1
+	image_xscale = -1
 	speedmult = 0.75
 	dir = "SE"
 }
 if moveX > 0 and moveY = 0 {
 	sprite_index = runright
-	image_xscale = 1
+	image_xscale = -1
 	speedmult = 1
 	dir = "E"
 }
 if moveX > 0 and moveY < 0 {
 	sprite_index = runupdiag
-	image_xscale = 1
+	image_xscale = -1
 	speedmult = 0.75
 	dir = "NE"
 }
@@ -58,19 +57,19 @@ if moveX = 0 and moveY < 0 {
 }
 if moveX < 0 and moveY > 0 {
 	sprite_index = rundowndiag
-	image_xscale = -1
+	image_xscale = 1
 	speedmult = 0.75
 	dir = "SW"
 }
 if moveX < 0 and moveY = 0 {
 	sprite_index = runright
-	image_xscale = -1
+	image_xscale = 1
 	speedmult = 1
 	dir = "W"
 }
 if moveX < 0 and moveY < 0 {
 	sprite_index = runupdiag
-	image_xscale = -1
+	image_xscale = 1
 	speedmult = 0.75
 	dir = "NW"
 }

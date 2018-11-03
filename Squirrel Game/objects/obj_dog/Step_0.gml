@@ -10,5 +10,8 @@ switch (state) {
 	break
 	case E_states.chasing:
 		chase(obj_player)
+		if place_meeting(x,y,obj_player){
+			room_goto(gameover)	
+		}
 	break
 }
