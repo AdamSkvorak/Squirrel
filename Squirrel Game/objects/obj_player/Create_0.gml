@@ -1,7 +1,7 @@
 //Movement and direction
 hspd = 0
 vspd = 0
-movespeed = 2
+movespeedBase = 3
 speedmult = 1
 dir = "S"
 moveY = 0
@@ -18,3 +18,4 @@ state = states.normal
 
 //NutStats
 nuts = 0
+maxNuts = 5

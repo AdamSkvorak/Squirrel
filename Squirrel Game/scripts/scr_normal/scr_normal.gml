@@ -9,6 +9,8 @@ movespeed = 2
 moveX = k_right - k_left
 moveY = k_down - k_up
 
+movespeed = (movespeedBase - ((movespeedBase/2.5)*(nuts/maxNuts)))
+
 hspd = moveX * movespeed * speedmult
 vspd = moveY * movespeed * speedmult
 
