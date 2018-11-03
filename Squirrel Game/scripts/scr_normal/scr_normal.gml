@@ -19,7 +19,6 @@ move( hspd, vspd) //----Moves player
 //----drops nuts
 if k_e and nuts > 0{
 	instance_create_layer(x, y, "Instances", obj_newnut)
-	global.nutcount++
 	nuts--
 }
 

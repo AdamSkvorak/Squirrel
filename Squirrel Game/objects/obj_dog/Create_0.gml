@@ -1,4 +1,4 @@
 state = E_states.idle
-detectRadius = 200
-movespeed = 1.5
+detectRadius = 500
+movespeed = 2
 collide = true

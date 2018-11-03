@@ -9,7 +9,6 @@ if (nutTimer == timeToNut) or (k_x) {
 	nutY = pos*random(100)
 	
 	instance_create_layer( x + nutX, y + nutY, "Instances", obj_nut)
-	global.nutcount++
 	timeToNut = irandom_range(300, 600)
 	nutTimer = 0
 }

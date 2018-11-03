@@ -1,1 +1,0 @@
-global.nutcount = 0

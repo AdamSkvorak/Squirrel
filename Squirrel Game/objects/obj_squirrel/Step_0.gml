@@ -1,7 +1,7 @@
 //findnut
 
-if mynut == -1 and havenut = false and global.nutcount > 0 {
-	for (i = 0; i < global.nutcount; i++) {
+if mynut == -1 and havenut = false {
+	for (i = 0; i < instance_number(obj_nut); i++) {
 		if (distance_to_object(instance_find(obj_nut, i)) < range) 
 		and instance_find(obj_nut, i).taken == false {
 			mynut = instance_find(obj_nut, i)
@@ -20,7 +20,6 @@ if mynut != -1 and instance_exists(mynut) {
 
 if place_meeting( x, y, mynut){
 	instance_destroy(mynut)
-	global.nutcount--
 	havenut = true
 	mynut = -1
 }
