@@ -7,6 +7,7 @@ dir = "S"
 moveY = 0
 moveX = 0
 
+
 //Sprites
 runup = spr_devil_runU
 runupdiag = spr_devil_runUdiag

@@ -5,5 +5,5 @@ enum states {
 
 enum E_states {
 	idle,
-	chase
+	chasing
 }

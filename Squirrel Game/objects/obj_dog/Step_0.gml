@@ -1,12 +1,14 @@
 if distance_to_object(obj_player) < detectRadius {
-	state = E_states.chase	
+	state = E_states.chasing	
 } else {
 	state = E_states.idle	
 }
 
 switch (state) {
-	case E_states.idle:	
+	case E_states.idle:
+		
 	break
-	case E_states.chase:
+	case E_states.chasing:
+		chase(obj_player)
 	break
 }
