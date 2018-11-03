@@ -1,5 +1,3 @@
-//Assigns depth
-depth = -y
 
 //State Machine
 switch(state) {
