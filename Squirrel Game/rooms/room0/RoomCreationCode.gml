@@ -4,6 +4,6 @@ enum states {
 }
 
 enum E_states {
-	normal,
-	attack
+	idle,
+	chase
 }

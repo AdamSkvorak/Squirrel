@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "498f264c-116c-44fd-b910-0f8feb0f5cd5",
+            "Value": {
+                "id": "1f51ee68-33f4-4cb0-b9f0-385fa0ab5dda",
+                "resourcePath": "sprites\\spr_dog_idle\\spr_dog_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a008cf2-80d6-4ae1-8150-b1ef1784aa47",
             "Value": {
                 "id": "34ac6b2a-0886-4c5b-951a-bb8e0a77cd17",
@@ -143,19 +151,19 @@
             }
         },
         {
+            "Key": "86cca103-4049-4353-8161-d15694d5448e",
+            "Value": {
+                "id": "54d6ee96-ddc8-4554-b7d8-bde7ff0a0de9",
+                "resourcePath": "objects\\obj_dog\\obj_dog.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "881658e3-f195-4a99-aac6-abe66b328812",
             "Value": {
                 "id": "212e2c5f-e5aa-49dc-a2ef-4867aa5bfff7",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "8f8d5b27-84b7-46ee-8b0a-6c5dc42663ed",
-            "Value": {
-                "id": "9ea8824b-b1dc-4876-986d-7a05c9c87a34",
-                "resourcePath": "objects\\obj_foreground\\obj_foreground.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -331,6 +339,14 @@
             "Value": {
                 "id": "f4f7af59-0c9e-4d63-ae29-ed8de54cadfa",
                 "resourcePath": "views\\e193c65c-159f-4c00-8ae9-0af38ed5db8c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e5c97fbc-58ab-4ef8-adc6-2363d561129b",
+            "Value": {
+                "id": "50985546-a1a1-46c4-ad41-c6b51027d618",
+                "resourcePath": "views\\e5c97fbc-58ab-4ef8-adc6-2363d561129b.yy",
                 "resourceType": "GMFolder"
             }
         },

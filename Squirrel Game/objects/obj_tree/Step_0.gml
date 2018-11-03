@@ -10,7 +10,7 @@ if (nutTimer == timeToNut) or (k_x) {
 	
 	instance_create_layer( x + nutX, y + nutY, "Instances", obj_nut)
 
-	timeToNut = irandom_range(30, 60)
+	timeToNut = irandom_range(300, 600)
 	nutTimer = 0
 }
 
