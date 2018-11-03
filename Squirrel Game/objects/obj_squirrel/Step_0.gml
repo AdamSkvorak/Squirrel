@@ -28,9 +28,9 @@ if havenut {
 }
 
 if mynut == -1 and havenut == false {
-	sprite_index = spr_devil_idle	
+	sprite_index = spr_E_idle	
 } else {
-	sprite_index = spr_devil_runL	
+	sprite_index = spr_E_run
 }
 
 if place_meeting(x,y,home) {
